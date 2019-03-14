@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="card_content">
+      <div class="title_card">
+          Créee par {{ created_by }}, à {{ created_at }}
+       </div>
+    <div class="card_description">
+        <div class="text_card_description">
+            <label id = "with_label"> Avec : </label>
+            <label *ngFor="let mem of member">{{ mem.name + ' , ' }}</label>
+        </div>
+        <a class="btn_joinparty" routerLink="../resume">Rejoindre</a>
+    </div>
+      </div>
+</div>

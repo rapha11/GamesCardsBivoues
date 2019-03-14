@@ -1,0 +1,141 @@
+
+.nav_main
+{
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: right;
+    width:100%;
+
+}
+
+.about_us
+{
+    display: inline-block;
+    margin: 3%;
+    margin-top: 20px;
+    font-family: "baumans","Bradley Hand ITC","papyrus";
+    cursor: pointer;
+}
+
+
+.nav-menu
+{
+    display:inline-block;
+    margin-top:100px;
+    width: 50%;
+    margin-left: 24%;
+    text-align: center;
+    opacity: 1;
+
+}
+
+.nav-title
+{
+    display: inline-block;
+    font-size: 60px;
+    text-align: center;
+    margin-left:10%;
+    color: #EEEEEE;
+    font-family:  "belgrano","Arial Narrow";
+}
+
+.icon_solo
+{
+    display: inline-block;
+
+background: #FFFFFF
+}
+
+.title_solo
+{
+    display: inline-block;
+    font-weight: 60px;
+    color: #FFFFFF;
+}
+
+.list-item1, .list-item2 , .list-item3
+{
+    display: inline-block;
+cursor: pointer;
+background: #25BE59;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+font-size: 20px;
+width: 60%;
+height: 60px;
+margin: 2%;
+line-height: 60px;
+color: #FFFFFF;
+margin-left: 10%;
+}
+
+.list-item1:hover, .list-item2:hover , .list-item3:hover
+{
+    opacity: 0.6;
+}
+
+.list-item2
+{
+
+    background: #C037C0;
+}
+
+.title-multijoueur, .title_solo, .title-setting
+{
+    width: 60%;
+    float: right;
+    text-align: left;
+    font-size: 22px;
+
+
+}
+
+.icon_multijoueur{
+    display: inline-block;
+background: #FFFFFF;
+}
+.list-item3
+{
+    display: inline-block;
+
+background: #38ABFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+
+.bar
+{
+    display: inline-block;
+    border:0.1px solid #FFFFFF;
+    width: 40%;
+    margin-left:12%;
+}
+.icons
+{
+  text-align: left;
+  float: left;
+  height: inherit;
+  width: 35%;
+}
+
+
+.copyright
+{
+
+    color: #FFFFFF;
+    width:70%;
+    margin-left: 20%;
+    font-size: 15px;
+    font-family:  "baumans","Arial Narrow";
+}
+.icons img{
+  color:#FFFFFF;
+  height: 40px;
+  margin: 10px;
+  line-height: inherit;
+  margin-left: 40px;
+  width: 40px;
+  //border-radius: 25px;
+}

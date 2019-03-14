@@ -1,0 +1,49 @@
+<html lang="fr">
+<body>
+    <div class="containerA">
+                <div class="nav-bar_brand">
+                  <div class="brand">
+                      <div class="icons">
+                          <img src="./../../assets/Icons/png/006-three-cards-2.png" alt="">
+                      </div>
+                      <div class="text_brand">Multijoueur-Check & Games</div>
+                  </div>
+                  <div class="return_btn">Retour</div>
+              </div>
+       <div class="contentA">
+            <header>
+                <div class="section_search">
+                    <div class="title-page">Parties</div>
+                        <div class="search_box">
+                          <label for="button_create"> <input type="button" class ="button_create" value="Creer"></label>
+                           <a routerLink="../resume">Creer</a>
+                           
+                        </div>
+                    </div>
+                    <hr class='line'>
+            </header>
+            <div class="cards">
+                <app-partie *ngFor="let party of parties"
+                              [created_at]="party.created_at"
+                              [created_by]= "party.created_by"
+                              [member] ="party.party_member"></app-partie>
+
+            </div>
+            <div class="rigth_block">
+                <div class="title_block_right">Règles</div>
+                <hr>
+                <div class="card_rules">
+                    <div class="img_cards_rules"></div>
+                    <div class="rules_description">
+                        <p>
+                         {{ rulesGame }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+
+    </div>
+</body>
+</html>

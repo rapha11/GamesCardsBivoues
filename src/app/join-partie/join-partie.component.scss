@@ -1,0 +1,274 @@
+header
+{
+    width: 100%;
+
+}
+
+.nav-bar_brand
+{
+    display: inline-block;
+    background: #C037C0;
+    width:inherit;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 80px;
+}
+.return_btn, .brand
+{
+    display: inline-block;
+    margin: 30px;
+}
+.return_btn
+{
+    vertical-align: top;
+
+    cursor: pointer;
+    margin-right: 5rem;
+    float: right;
+    font-family: "baumans";
+}
+.brand
+{
+    width:500px;
+    margin-left: 5rem;
+    display: inline-block;
+    height: inherit;
+    margin-top: 0px;
+
+}
+
+.logo_brand, .text_brand
+{
+    cursor: pointer;
+    display: inline-block;
+}
+.text_brand
+{
+
+    float: right;
+    height: inherit;
+    margin-left: 0px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.img_cards_rules
+{
+  min-height: 220px;
+  margin-top: 30px;
+  background: url('./../../assets/Images/cartes_sur_tables.jpg');
+}
+.line
+{
+    width: 100%;
+}
+.section_search
+{
+    display: inline-block;
+    width: 100%;
+    height:80px;
+}
+.title-page
+{
+    margin-top:30px;
+    display: inline-block;
+    font-family: "baumans";
+}
+.search_box
+{
+
+    float: right;
+    vertical-align: bottom;
+    margin-top:30px;
+}
+.btn_joinparty
+{
+
+width: 200px;
+height: 45px;
+line-height: 45px;
+background: #C037C0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+display: inline-block;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+
+
+}
+
+.card_description
+{
+  display: inline-block;
+  width:100%;
+}
+.search_box input[type=button]{
+    width: 197px;
+height: 40px;
+border: none;
+cursor: pointer;
+font-size: 25px;
+background: #38ABFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family:  "baumans","Agency FB","Bahnschrift SemiBold SemiConden","Arial Narrow";
+color: #FFFFFF;
+line-height: 40px;
+
+}
+
+.icons
+{
+  text-align: left;
+  display: inline-block;
+  height: inherit;
+  width: 20%;
+  margin-right: 0px;
+
+}
+
+.icons img{
+  color:#FFFFFF;
+  height: 50px;
+  line-height: inherit;
+  margin-top: 10px;
+  display: inline-block;
+  width: 50px;
+  //border-radius: 25px;
+}
+
+
+.card
+{
+
+    margin-top: 40px;
+    display: inline-block;
+    margin: 2%;
+    margin-left: 0px;
+    font-size: 17px;
+    width: 100%;
+    background: #F9F9F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    color:black;
+    font-family: "baumans";
+}
+p
+{
+  font-size: 18px;
+  font-family: "baumans";
+}
+.card_content
+{
+    display: inline-block;
+    color: black;
+    height: 50%;
+    width: 96%;
+    margin: 10%;
+    margin: 2%;
+
+
+}
+.title_card
+{
+
+margin-bottom: 3%;
+    font-size: 20px;
+    text-align: left;
+   display: inline-block;
+}
+
+
+.nav-menu
+{
+    display:inline-block;
+    margin-top:100px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    opacity: 1;
+
+}
+
+.nav-title
+{
+
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    color: #EEEEEE;
+    font-family:  "Arial Narrow";
+
+}
+
+.icon_solo
+{
+    display: inline-block;
+
+background: #FFFFFF
+}
+
+.title_solo
+{
+    display: inline-block;
+    font-weight: 60px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+
+.title_block_right
+{
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "baumans"
+}
+
+.text_card_description
+{
+  display: inline-block;
+}
+.card_footer
+{
+    width: 289px;
+    height: 60px;
+    background: #C037C0;
+    border-radius: 0px 0px 41px 41px;
+    display: inline-block;
+    width: 100%;
+    vertical-align:bottom;
+    padding-bottom: 0px;
+    margin-top:21px;
+
+}
+
+
+.rigth_block
+{
+
+
+  width: 35%;
+  float: right;
+  border-left: 1px solid #FFFFFF;
+  padding: 5%;
+  padding-top:2%;
+
+}
+
+
+
+.contentA
+{
+    margin: 5rem;
+    margin-top: 0px;
+    display: inline-block;
+
+}
+
+
+.cards
+{
+    display: inline-block;
+    width: 50%;
+
+}

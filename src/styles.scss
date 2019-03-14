@@ -1,0 +1,46 @@
+
+@font-face
+{
+    font-family: 'audiowide';
+    src: url('./assets/Fonts/audiowide/Audiowide-Regular.ttf');
+}
+
+
+@font-face
+{
+    font-family: 'belgrano';
+    src: url('./assets/Fonts/belgrano/Belgrano-Regular.ttf');
+}
+
+
+@font-face
+{
+    font-family: 'baumans';
+    src: url('./assets/Fonts/baumans/Baumans-Regular.ttf');
+}
+body,html
+{
+    display: inline-block;
+    background-image:url('./assets/Images/manyCards-bicubic.jpg') ;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    backdrop-filter: rotateY(45deg);
+    font-family:  "audiowide";
+}
+.containerA{
+  background: rgba(34, 34, 34, 0.9);
+  display: inline-block;
+  width: 100%;
+  min-height: 694px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+

@@ -1,0 +1,42 @@
+<html lang="fr">
+
+<body>
+    <div class="containerA">
+      <div class="nav-bar_brand">
+        <div class="brand">
+            <div class="icons">
+                <img src="./../../assets/Icons/png/006-three-cards-2.png" alt="">
+            </div>
+            <div class="text_brand">Multijoueurs</div>
+        </div>
+        <a routerLink="" class="return_btn">Retour</a>
+    </div>
+       <div class="contentA">
+            <header>
+                <div class="section_search">
+                    <div class="title-page">Selectionnez un jeu</div>
+                        <div class="search_box">
+                            <input type="search" placeholder="Recherchez un jeu" name="" id="">
+                            <button class="btn_search"><img src="./../../assets/Icons/png/Seach_bar.png" alt=""></button>
+                        </div>
+                    </div>
+                    <hr class='line'>
+            </header>
+            <div class="cards">
+                <app-carte *ngFor="let card of cartes_mul"
+                            [title]="card.title"
+                            [games]="card.games"
+                            [like]="card.like"
+                            [dislike]="card.dislike"
+                            [bgFooterColor]="card.bgFooterColor"
+                            [nextPage] ="card.nextPage"
+                            ></app-carte>
+            </div>
+
+       </div>
+
+
+    </div>
+</body>
+</html>
+

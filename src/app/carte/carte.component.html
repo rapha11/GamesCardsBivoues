@@ -1,0 +1,38 @@
+<div class="card">
+
+    <div class="card_content">
+            <div class="title_card">
+                   {{ title }}
+            </div>
+            <div class="card_option">
+                    <ul class="list-group-option">
+                        <li class="list-option-item">
+                          <div class="icons">
+                            <img src="./../../assets/Icons/png/gamepad-controller.png" alt="icon games">
+                          </div>
+                          <label >{{ games }}</label>
+                        </li>
+                        <li class="list-option-item">
+                            <div class="icons">
+                              <img src="./../../assets/Icons/png/favorite-heart-button.png" alt="icon games">
+                            </div>
+                            <label >{{ games }}</label>
+                          </li>
+                          <li class="list-option-item">
+                              <div class="icons">
+                                <img src="./../../assets/Icons/png/broken-heart.png" alt="icon games">
+                              </div>
+                              <label >{{ games }}</label>
+                            </li>
+
+                    </ul>
+            </div>
+    </div>
+    <div class="card_footer" [ngStyle]="{'background-color': bgFooterColor}">
+        <a routerLink="../{{ nextPage }}" class="btn-footer-solo" [ngStyle]="{'background-color': bgFooterColor}">Jouer</a> |
+        <button class="btn-footer-solo" [ngStyle]="{'background-color': bgFooterColor}"> Règles </button>
+    </div>
+
+  </div>
+
+

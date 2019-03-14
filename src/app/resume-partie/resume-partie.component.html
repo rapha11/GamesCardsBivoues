@@ -1,0 +1,84 @@
+<html lang="fr">
+
+<body>
+    <div class="containerA">
+
+                <div class="nav-bar_brand">
+                  <div class="brand">
+                      <div class="icons">
+                          <img src="./../../assets/Icons/png/006-three-cards-2.png" alt="">
+                      </div>
+                      <div class="text_brand">Multijoueurs-Check & Games</div>
+                  </div>
+                  <div class="return_btn">Retour</div>
+              </div>
+       <div class="contentA">
+            <header>
+                <div class="section_search">
+                    <div class="title-page">Partie créee par vous</div>
+                        <div class="search_box">
+                            <input type="button" class="btn_lauch" value="Lancer">
+                            <input type="button" class="btn_close" value="Fermer">
+                        </div>
+                    </div>
+                    <hr class='line'>
+            </header>
+            <div class="cards">
+                <div class="partie_property_card">
+                  <div class="card_content">
+                      <div class="title_card">
+                           Caracteristiques de la partie
+                      </div>
+
+                  </div>
+                </div>
+                <div class="card_participant">
+                    <div class="card_content">
+                        <div class="title_card">
+                              Participants
+                        </div>
+                        <hr>
+                        <div class="participants_list">
+                            <app-participant-list *ngFor="let participant of participants"
+                                                  [name]="participant.name"
+                                                  [id]="participant.id"
+                                                  [surname]="participant.surname"></app-participant-list>
+
+
+                        </div>
+
+                        <div class="process_state_text">En attente d'un autre joueur ...</div>
+                    </div>
+                  </div>
+
+
+
+            </div>
+            <div class="rigth_block">
+                <div class="title_block_right">Règles</div>
+                <hr>
+                <div class="card_rules">
+                    <div class="img_cards_rules"></div>
+                    <div class="rules_description">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Quae consequatur reiciendis porro dolorem labore placeat facere? Alias
+                          totam repellendus vitae, tempore laudantium fugit, iusto unde natus iste in reiciendis. Quae. </p>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nisi est magnam sapiente veniam unde perferendis error repellat cum obcaecati, mollitia ducimus aut animi ullam eos ab quasi in quaerat.
+                          </p>
+                    </div>
+                </div>
+            </div>
+
+
+       </div>
+
+
+    </div>
+</body>
+</html>
+
+<style>
+
+
+</style>

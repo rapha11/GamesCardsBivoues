@@ -1,0 +1,36 @@
+<html lang="fr">
+<body>
+    <div class="containerA">
+            <div class="nav-bar_brand">
+                    <div class="brand">
+                        <div class="icons">
+                            <img src="./../../assets/Icons/png/006-three-cards-2.png" alt="">
+                        </div>
+                        <div class="text_brand">Solo</div>
+                    </div>
+                    <a class="return_btn" routerLink="">Retour</a>
+                </div>
+       <div class="contentA">
+            <header>
+                    <div class="section_search">
+                        <div class="title-page">Selectionnez un jeu ...</div>
+                        <div class="search_box">
+                            <input type="search" placeholder="Recherchez un jeu" name="" id="">
+                            <input type="button" value="OK">
+                        </div>
+                    </div>
+                    <hr class='line'>
+                </header>
+          
+                  <app-carte *ngFor="let card of cartes"
+                          [title]="card.title"
+                          [games]="card.games"
+                          [like]="card.like"
+                          [dislike]="card.dislike"
+                          [nextPage]="card.nextPage"></app-carte>
+       </div>
+
+
+    </div>
+</body>
+</html>

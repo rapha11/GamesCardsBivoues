@@ -1,0 +1,134 @@
+
+$footerCardcolor :#C037C0;
+
+
+
+.card
+{
+    width: 22.667%;
+    margin-top: 40px;
+    text-align: center;
+    min-height: 350px;
+    display: inline-block;
+    margin: 2%;
+    margin-left: 0px;
+    border-radius: 44px;
+    background-image:url('./../../assets/Images/manyCards.jpg') ;
+
+}
+.card_content
+{
+    display: inline-block;
+    background: rgba(15, 15, 15, 0.1);
+    color: black;
+    height: 290px;
+    width: 100%;
+    border-radius: 41px 41px 0px 0px;
+
+}
+.title_card
+{
+    margin: 20%;
+    margin-bottom: 20%;
+    font-size: 19px;
+    text-align: left;
+}
+
+
+
+
+.nav-title
+{
+
+    display: inline-block;
+    font-size: 82px;
+    text-align: center;
+    color: #EEEEEE;
+    font-family:  "Arial Narrow";
+}
+
+
+.card_footer
+{
+    width: 289px;
+    height: 60px;
+    background:$footerCardcolor;
+    border-radius: 0px 0px 41px 41px;
+    display: inline-block;
+    width: 100%;
+    vertical-align:bottom;
+    padding-bottom: 0px;
+    margin-top:21px;
+
+}
+
+.btn-footer-solo
+{
+width: 100px;
+height: 48px;
+left: 75px;
+font-size: 17px;
+text-align: center;
+background: #C037C0;
+border:none;
+cursor: pointer;
+color: #FFFFFF;
+border-radius: 20px;
+font-family:  "audiowide";
+
+}
+.btn-footer-solo_vert
+{
+width: 100px;
+height: 48px;
+left: 75px;
+font-size: 17px;
+text-align: center;
+background: #C037C0;
+border:none;
+cursor: pointer;
+color: #FFFFFF;
+border-radius: 20px;
+font-family:  "audiowide";
+
+}
+
+
+.btn-footer-solo :hover
+{
+    opacity: 0.5;
+}
+.cards
+{
+    display: inline-block;
+    width: 100%;
+}
+li
+{
+  list-style-type: none;
+}
+
+.list-option-item
+{
+  padding: 0px;
+  height: 40px;
+  font-size: 20px;
+}
+.list-option-item img
+{
+  float: left;
+  margin-left: 50px;
+  height: 30px;
+  line-height: 40px;
+  margin-top: 5px;
+}
+
+.list-option-item label
+{
+  width: 50%;
+  text-align: left;
+  height: 40px;
+  float: right;
+  line-height: 40px;
+  font-size: 15px;
+}
